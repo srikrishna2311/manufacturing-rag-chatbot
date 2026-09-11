@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (too large for git)
+data/
+*.csv
+
+# Model artifacts
+*.pkl
+*.joblib
+mlruns/
+
+# IDE
+.vscode/
+.idea/
